@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTM_limit_validation_rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>SMB_Customer__r.Total_CTM_s__c  &gt;= 1</errorConditionFormula>
+    <errorMessage>already CTM is avalaible on this customer</errorMessage>
+</ValidationRule>
